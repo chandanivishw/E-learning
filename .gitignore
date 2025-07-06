@@ -27,3 +27,7 @@ dist-ssr
 node_modules/
 frontend/node_modules/
 server/node_modules/
+*.mp4
+*.zip
+*.rar
+.env
