@@ -1,0 +1,72 @@
+.home{
+    background-color: #f5f5f5;
+    padding: 30px 10px;
+    text-align: center;
+
+    .home-content{
+        max-width: 800px;
+        margin: 0 auto;
+
+    
+    h1{
+        font-size: 36px;
+        margin-bottom: 20px;
+
+        @media (max-width:768px){
+            font-size: 28px;
+        }
+    }
+    p{
+        font-size: 18px;
+        color: #666;
+        margin-bottom: 40px;
+
+        @media (max-width:768px){
+            font-size: 16px;
+        }
+    }
+    button{
+        padding: 12px 24px;
+    }
+  }
+  .slider-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* Set a default height for the slider */
+    background-image:url("https://th.bing.com/th/id/OIP.eb-Hv0zbJ2p-_pwtgef6rAHaEJ?w=320&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7") ; /* E-learning theme color */
+    background-repeat: no-repeat;               /* Key-value: background-repeat */
+    background-position: center;                /* Key-value: background-position */
+    background-size: cover;  
+    color:#8a4baf;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .slider-content h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .slider-content p {
+    font-size: rem;
+    margin-bottom: 1.5rem;
+  }
+  @media (max-width: 768px) {
+    .slider-content h1 {
+      font-size: 1.5rem;
+    }
+  
+    .slider-content p {
+      font-size: 1rem;
+    }
+  
+    .slider-item {
+      height: 250px; /* Adjust height for mobile */
+    }
+  }
+}
+
+
