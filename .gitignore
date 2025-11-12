@@ -6,4 +6,4 @@ server/node_modules/
 *.zip
 *.rar
 .env
-uploads/
+server/uploads/
