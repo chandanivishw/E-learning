@@ -6,4 +6,5 @@ server/node_modules/
 *.zip
 *.rar
 .env
-server/uploads/
+# server/uploads/
+server/uploads/*.mp4
