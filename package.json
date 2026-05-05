@@ -1,15 +1,12 @@
-
-
 {
   "name": "e-learning",
   "version": "1.0.0",
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run frontend\"",
-  "server": "cd server && npm start",
-  "frontend": "cd frontend && npm run dev"
+    "server": "cd server && npm start",
+    "frontend": "cd frontend && npm run dev"
   },
   "devDependencies": {
-    "concurrently": "^9.1.2"
+    "concurrently": "^9.2.1"
   }
 }
-
