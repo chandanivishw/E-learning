@@ -5,7 +5,8 @@ import { UserContextProvider } from './Context/UserContext.jsx';
 import { CourseContextProvider } from './Context/CourseContext.jsx';
 
 
-export const server = "http://localhost:5000";
+// export const server = "http://localhost:5000";
+export const server = import.meta.env.VITE_API_URL || "http://localhost:5000";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
